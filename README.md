@@ -31,9 +31,9 @@ This repository contains a basic network sniffer script written in Python for an
 
 ## Usage
 
-    ```bash
-    sudo sniffer -i <interface> -c <count> -f <filters> -w <output_file>
-    ```
+```bash
+sudo sniffer -i <interface> -c <count> -f <filters> -w <output_file>
+```
 
 ### Options:
 
