@@ -58,7 +58,8 @@ sudo sniffer -i <interface> -c <count> -f <filters> -w <output_file>
     ```
     sudo sniffer
     ```
-    
+    ![image](https://github.com/ahmedelgendy3/CodeAlpha_Basic_Network_Sniffer/assets/83506756/9253d653-bd5e-4e10-95ff-12665063c510)
+
 2.  Capture 100 packets on the `eth0` interface and save the output to a file named `output.pcap`:
     
     ```
