@@ -26,15 +26,14 @@ This repository contains a basic network sniffer script written in Python for an
     ```
     sudo ./setup.sh
     ```
-    
     This script installs the required dependencies (`prettytable` and `scapy`) using `pip`, makes the `sniffer` script executable, and copies it to a directory in the user's PATH (`/usr/local/bin`).
     
 
 ## Usage
 
-```bash
-sudo sniffer -i <interface> -c <count> -f <filters> -w <output_file>
-```
+    ```bash
+    sudo sniffer -i <interface> -c <count> -f <filters> -w <output_file>
+    ```
 
 ### Options:
 
@@ -76,8 +75,16 @@ sudo sniffer -i <interface> -c <count> -f <filters> -w <output_file>
     ```
     sudo sniffer -f "tcp port 80"
     ```
-    
-
+5. Capture TCP packets on port 80 and UDP packets on port 53:
+    ```
+    sudo sniffer -i eth0 -c 100 -f "tcp port 80 or udp port 53" -w DNS_HTTP.pcap
+    or
+    sudo sniffer -i eth0 -c 100 -f "tcp port 80,udp port 53" -w DNS_HTTP.pcap
+    ```
+6. Capture ICMP and ARP packets:
+   ```
+   sudo sniffer -i eth0 -c 100 -f "icmp,arp" -w ICMP_ARP.pcap
+   ```
 ## Dependencies
 
 - Scapy
