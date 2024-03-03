@@ -13,7 +13,7 @@ CodeAlpha Internship
 2.  Navigate to the project directory:
     
     ```
-    cd Network_Sniffer
+    cd CodeAlpha_Basic_Network_Sniffer
     ```
     
 3.  Make the `setup.sh` script executable:
