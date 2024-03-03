@@ -76,7 +76,7 @@ def start_sniffer(interface="eth0", count=None, output_file=None, filters=None):
         sniffed_packets = sniff(iface=interface, filter=filter_str, prn=lambda pkt: packet_callback(pkt, output_file), count=count, store=False)
         for packet in sniffed_packets:
             packets.append(packet)
-            print(packet)
+#            print(packet)
     except KeyboardInterrupt:  # Handle KeyboardInterrupt exception
         pass  # Do nothing when Ctrl+C is pressed
 
