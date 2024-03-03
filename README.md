@@ -1,6 +1,6 @@
 # CodeAlpha_Basic_Network_Sniffer
 
-This repository contains a basic network sniffer script designed for an intern task at CodeAlpha. The script is designed to sniff network packets on a specified interface and display information about the packets in a formatted table. It can also write the captured packets to a PCAP file for further analysis.
+This repository contains a basic network sniffer script written in Python for an intern task at CodeAlpha. The script is designed to sniff network packets on a specified interface and display information about the packets in a formatted table. It can also write the captured packets to a PCAP file for further analysis.
 ## Installation
 
 1.  Clone the repository:
@@ -80,6 +80,5 @@ sudo sniffer -i <interface> -c <count> -f <filters> -w <output_file>
 
 ## Dependencies
 
-- Python 3
 - Scapy
 - PrettyTable
