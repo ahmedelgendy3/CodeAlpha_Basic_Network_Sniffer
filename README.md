@@ -1,7 +1,6 @@
 # CodeAlpha_Basic_Network_Sniffer
 
-This script is designed to sniff network packets on a specified interface and display information about the packets in a formatted table. It can also write the captured packets to a PCAP file for further analysis.
-CodeAlpha Internship
+This repository contains a basic network sniffer script designed for an intern task at CodeAlpha. The script is designed to sniff network packets on a specified interface and display information about the packets in a formatted table. It can also write the captured packets to a PCAP file for further analysis.
 ## Installation
 
 1.  Clone the repository:
